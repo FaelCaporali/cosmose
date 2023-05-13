@@ -1,4 +1,5 @@
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import { Container, Navbar } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Routes from './components/Routes'
 import Provider from './context/Provider'
 import './App.css'
@@ -9,10 +10,9 @@ function App() {
     <Provider>
       <Container>
         <Navbar expand="lg" bg='dark' variant='dark' as="nav">
-            <Navbar.Brand href="/" className='text-white'>Menu Inicial</Navbar.Brand>
-            <Nav.Link href="/character/new" className='text-white'>Novo Personagem</Nav.Link>
-            <Nav.Link href="/character" className='text-white'>Personagens</Nav.Link>
-            <Navbar.Toggle />
+            <Link to="/" className='text-white'>Menu Inicial</Link>
+            <Link to="/character/new" className='text-white'>Novo Personagem</Link>
+            <Link to="/character" className='text-white'>Personagens</Link>
         </Navbar>
       </Container>
       <Container>
