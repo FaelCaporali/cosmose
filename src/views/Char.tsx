@@ -138,7 +138,7 @@ const Character = (props: Props) => {
                             <Dropdown.Item eventKey="neuter">Não-binário</Dropdown.Item>
                             <Dropdown.Item eventKey="male_trans">Homem Trans</Dropdown.Item>
                             <Dropdown.Item eventKey="female_trans">Mulher Trans</Dropdown.Item>
-                            <Dropdown.Item eventKey="androgynous">Andrógino</Dropdown.Item>
+                            <Dropdown.Item eventKey="androgynous">Andrógeno</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Form.Group>
