@@ -1,0 +1,54 @@
+{
+    "player": "jogador",
+    "info": {
+        "name": "nome",
+        "weight": "peso",
+        "height": "altura",
+        "age": "idade",
+        "image": "imagem",
+        "gender": {
+            "male": "masculino",
+            "female": "feminino",
+            "neuter": "não binário",
+            "male_trans": "homem trans",
+            "female_trans": "mulher trans",
+            "androgynous": "andrógeno"
+        },
+        "sexualOrientation": {
+            "straight": "heterosexual",
+            "gay": "homosexual",
+            "bisexual": "bisexual",
+            "asexual": "assexuado(a)"
+        }
+    },
+    "knowledge": {
+        "motherLanguage": "língua materna",
+        "maths": "matemática",
+        "physics": "física",
+        "chemistry": "química",
+        "biology": "biologia",
+        "history": "história",
+        "geography": "geografia",
+        "electronics": "eletrônica",
+        "investigation": "investigação",
+        "firstAid": "primeiros socorros",
+        "religion": "religião",
+        "arts": "arte",
+        "vehicles": "veículos",
+        "survival": "sobrevivência",
+        "uncommon": {
+            "anatomy": "anatomia",
+            "economy": "economia",
+            "philosophy": "filosofia",
+            "occultism": "ocultismo"
+        }
+    },
+    "abilities": {
+        "persuasion": "persuasão",
+        "perception": "percepção",
+        "combat": "combate",
+        "dexterity": "destreza",
+        "stealth": "furtividade",
+        "acrobatics": "atletismo"
+    }
+}
